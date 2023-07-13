@@ -1,2 +1,2 @@
-# learningstarted
-first project of life
+# DSA
+
