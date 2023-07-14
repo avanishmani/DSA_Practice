@@ -12,15 +12,9 @@ public class SubArrayWithSum {
         while(i<n){
             System.out.println("Enter element in Array at index "+ i);
             int j=sc.nextInt();
-            if(i==0){
+
                 arr[i++]=j;
-            }
-            else if(i>0&&arr[i-1]<j){
-                arr[i++]=j;
-            }else{
-                System.out.println("Please enter the element greater then "+ arr[i-1]);
-                continue;
-            }
+
         }
         System.out.println("enter the total sum that You want !");
         int sum=sc.nextInt();
