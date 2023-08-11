@@ -4,6 +4,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 class employee {
     int employee_id;
+    
     String name;
     int salary;
     boolean stock_options;
